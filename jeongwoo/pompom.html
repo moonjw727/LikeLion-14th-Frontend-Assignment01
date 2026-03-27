@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./크스스들/pompom.css">
+</head>
+<body>
+<main><!--html조건3만족-->
+    <form>
+        <p>
+            <label><!--html조건8만족-->
+                햄버거를 먹었나요?<br>
+                <input type="radio" name="eat" value="hamburger"/>
+                Yes
+                <input type="radio" name="eat" value="hamburgerx"/>
+                No
+            </label>
+        </p>
+        
+            <p>
+                <label for="name">햄버거 먹은 사람</label><br>
+                <input type="text" id="name" name="name" placeholder="입력하세요"/>
+            </p>
+            
+            <p>
+                <label for="when">햄버거 먹는 날</label><br>
+                <input type="date" name="when"/>
+            </p>
+            <p>
+                <label for="how">먹은 햄버거 수</label><br>
+                <input 
+                type="number" 
+                name="how" 
+                min="0" 
+                max="100" 
+                placeholder="입력하세요"/>
+
+            </p>
+            <p>
+             <label for="intro">노트</label><br>
+            <textarea 
+            name="intro"
+            rows="5"
+            cols="30"
+            placeholder="입력하세요"
+            ></textarea>
+         </p>
+
+        <p>
+                <input type="submit" value="제출">
+                <input type="reset" value="초기화">
+            </p>
+
+
+    </form>
+    <nav>><!--html조건3만족-->
+        <a href="introduce.html">이전</a><!--html조건4만족-->
+    </nav>
+</main>
+</body>
+</html>

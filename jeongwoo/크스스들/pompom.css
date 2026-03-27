@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Mulmaru';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-4@1.1/Mulmaru.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {/*css조건4번만족*/
+     font-family: 'Mulmaru';
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/vector-seamless-burger-pattern-background_53876-177815.jpg?semt=ais_hybrid&w=740&q=80);
+}
+
+main {
+    text-align: center;
+    font-size: 30PX;
+}
